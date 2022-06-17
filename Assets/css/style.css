@@ -5,9 +5,12 @@
 }
 
 body {
-    margin: 0;
+    margin: 50px;
     padding: 0;
-    background-color: rgba(30, 61, 79, 0.863);
+    background-color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(43, 182, 182);
+    background-size: cover;
 }
 
 nav > h1 {
@@ -21,23 +24,25 @@ nav > h1 {
     position: relative;
     justify-content: space-between;
     margin-top: 10px;
-    /* margin-right: 50px; */
-    /* padding-right: 150px; */
-    font-size: 40x;
+    font-size: 20x;
 }
 
 .top-left > ul > li {
     display: inline;
     justify-content: end;
     padding-right: 30px;
-    font-size: 25px;
-    /* justify-content: end; */
+    font-size: 20px;
 }
 .sectbody{
     color: black;
+    padding: 10px;
     font-size: 20px;
     font-style: italic;
     text-align: center;
+}
+
+.sectbody h2 {
+    color: midnightblue;
 }
 
 .work {
@@ -46,6 +51,16 @@ nav > h1 {
 }
 
 .work h2 {
+    color: darkgreen;  
+}
+
+.work h5 {
+    color: blueviolet;
+    font-size: 25px;
+}
+
+.work li {
+    text-align: left;
     color: black;
 }
 
@@ -55,8 +70,14 @@ nav > h1 {
     margin-top: 50px;
 }
 
+#About-me h2 {
+    color: darkgreen;
+}
+
 #Services h2 {
     text-align: center;
+    font-size: 30px;
+    color: darkgreen;
 }
 
 .service {
@@ -64,4 +85,46 @@ nav > h1 {
     justify-content: space-evenly;
 }
 
+.service li {
+    color: gainsboro;
+    font-size: 22px;
+}
 
+#contact {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: rgb(255, 210, 127);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons p {
+    color: navy;
+}
+
+.subscribe {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscribe a{
+    color: red;
+}
