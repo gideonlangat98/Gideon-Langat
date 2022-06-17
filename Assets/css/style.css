@@ -18,8 +18,7 @@ nav > a{
     margin-left: 20px;
     font-size: 25px;
     list-style: none;
-    /* list-style-type: none; */
-
+    text-decoration: none;
 }
 
 #nav-bar {
@@ -27,9 +26,11 @@ nav > a{
     display: flex;
     position: relative;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 20x;
     padding: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
 }
 
 .top-left > ul > li {
@@ -37,21 +38,24 @@ nav > a{
     justify-content: end;
     padding-right: 30px;
     font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+
 }
 .sectbody{
     color: black;
     background-color: dimgray;
     padding-top: 20px;
     padding-bottom: 70px;
-
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     text-align: center;
 }
 
 .sectbody h2 {
     color: midnightblue;
+    padding: 20px;
 }
 
 .work {
@@ -71,6 +75,11 @@ nav > a{
 .work li {
     text-align: left;
     color: black;
+    margin-left: 30px;
+}
+
+.style-body {
+    background-color: dimgray;
 }
 
 #About-me {
@@ -111,11 +120,18 @@ nav > a{
     color: darkgreen;
 }
 
+#contact p {
+    margin-left: 30px;
+}
+
 .contact-icons {
     display: flex;
     justify-content: space-evenly;
 }
 
+.contact-icons p{
+    color: darkred;
+}
 .footer {
     background-color: rgb(255, 210, 127);
     padding-top: 30px;
