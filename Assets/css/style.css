@@ -1,7 +1,13 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: rgba(30, 61, 79, 0.863);
 }
 
 nav > h1 {
@@ -10,11 +16,12 @@ nav > h1 {
 }
 
 #nav-bar {
-    background-color: aquamarine;
+    background-color: rgb(200, 255, 127);
     display: flex;
     position: relative;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-top: 10px;
+    /* margin-right: 50px; */
     /* padding-right: 150px; */
     font-size: 40x;
 }
@@ -23,14 +30,38 @@ nav > h1 {
     display: inline;
     justify-content: end;
     padding-right: 30px;
+    font-size: 25px;
     /* justify-content: end; */
 }
 .sectbody{
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
 }
 
+.work {
+    text-align: center;
+    font-size: 20px;
+}
+
+.work h2 {
+    color: black;
+}
+
+#About-me {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#Services h2 {
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
