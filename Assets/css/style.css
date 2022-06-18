@@ -51,6 +51,13 @@ nav > a{
     font-size: 25px;
     font-style: italic;
     text-align: center;
+    background-image: ;
+}
+
+.sectbody img {
+    float: left;
+    margin-left: 50px;
+    bottom: 30px;
 }
 
 .sectbody h2 {
