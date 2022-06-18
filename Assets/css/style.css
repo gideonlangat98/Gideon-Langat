@@ -140,6 +140,10 @@ nav > a{
     justify-content: space-evenly;
 }
 
+.contact-icons i {
+    margin-left: 80px;
+}
+
 .contact-icons p{
     color: darkred;
 }
@@ -165,4 +169,25 @@ nav > a{
 
 .subscribe a{
     color: red;
+    text-decoration: none;
+}
+
+.subscribe i {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+}
+
+.copy-right img {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.copy-right p{
+    color: blue;
+    margin-top: 30px;
 }
