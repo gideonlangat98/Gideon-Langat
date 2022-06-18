@@ -147,10 +147,18 @@ nav > a{
 .contact-icons p{
     color: darkred;
 }
+
+.github a {
+    text-decoration: none;
+}
 .footer {
     background-color: rgb(255, 210, 127);
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.footer a {
+    text-decoration: none;
 }
 
 .icons {
